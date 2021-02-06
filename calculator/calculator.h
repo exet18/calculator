@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class calculator; }
 QT_END_NAMESPACE
@@ -19,5 +20,10 @@ private:
     Ui::calculator *ui;
 private slots:
     void digits_numbers();
+    void on_dot_clicked();
+    void operations();
+    void on_AC_clicked();
+    void on_result_clicked();
+    void math_operations();
 };
 #endif // CALCULATOR_H
