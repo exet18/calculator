@@ -1,1 +1,1 @@
-# calculator
+I created iphone calculator in programm Qt Creator on Windows!
